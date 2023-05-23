@@ -23,8 +23,8 @@ public class Loops02 {
     //Ornek 3: Verilen bir tamsayinin rakamlarının toplamini bulan kodu yaziniz
         //578==>5+7+8=20
         int toplam=0;
-       int n=-578;
-       n=Math.abs(n);
+       int num=-578;
+       num=Math.abs(num);
 
         for (int i=578;i>0;i=i/10){
             toplam=toplam +i%10;

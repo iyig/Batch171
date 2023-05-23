@@ -14,8 +14,8 @@ public class Loops03 {
         Scanner input = new Scanner(System.in);
         System.out.println("Baslangıc degerini giriniz...");
         int start = input.nextInt();
-        System.out.println("Btis degerini girijjniz...");
 
+        System.out.println("Btis degerini girijjniz...");
         int end = input.nextInt();
 
         if (start > end) {
@@ -29,7 +29,7 @@ public class Loops03 {
             }
 
         }
-    //Irnek 2: ic sayi kullanmadan 1 den 100 e kadar olan sayıları console yazdırınız
+    //Ornek 2: (Interview Soru) Hic sayi kullanmadan 1 den 100 e kadar olan sayıları console yazdırınız
       for (int i='d'/'d'; i<='d';i++){
           System.out.print(i+ " ");
       }

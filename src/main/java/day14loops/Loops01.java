@@ -26,7 +26,7 @@ public class Loops01 {
         //ornek 2: size verilen bir string in "Palindrome" olup olmadigini kontrol eden kodu yaziniz
         //  nalan, ey edip adanada pide ye, 404
 
-        //Logic : String i ters cevir sonrada duz hali ile ters halini karsilastir, ayni ise "Palindrome"
+        //Logic : String i ters cevir sonrada duz hali ile ters halini karsilastir, ayni ise "Palindrome"dur
 
         String duz = "Nalan";
         String ters3 = "";
