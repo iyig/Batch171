@@ -14,16 +14,13 @@ public class DoWhileLoop03 {
 
 
         Scanner input = new Scanner(System.in);
-        System.out.println("Lütfen username ve password girin");
+
         int counter = 0;
 
 
         do {
 
-            if (counter==4){
-                System.out.println("hesabiniz bloke olmustur!!");
-                break;
-            }
+
             System.out.println("username i giriniz...");
             String userName = input.next();
 
@@ -34,11 +31,14 @@ public class DoWhileLoop03 {
                 System.out.println("Hesabiniza hosgeldiniz...");
                 break;
             }
-        counter++;
+            counter++;
+            if (counter == 4) {
+                System.out.println("hesabiniz bloke olmustur!!");
+                break;
+            }
 
+        }  while (true) ;
 
-
-        } while (true);
+        }
 
     }
-}

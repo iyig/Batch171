@@ -23,7 +23,7 @@ public class WhileLoop02 {
         i++;
 
         }
-        //Example 2:  (Intrview Sorusu)Verlen bir String de her harfin sonrasina "*" sembolu ekleyiniz
+        //Example 2:  (Interview Sorusu)Verlen bir String de her harfin sonrasina "*" sembolu ekleyiniz
         //    Java ==> J*a*v*a*
         System.out.println("Bir kelime giriniz");
         String word=input.next();
