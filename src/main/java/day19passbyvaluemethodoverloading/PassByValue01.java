@@ -33,7 +33,7 @@ public class PassByValue01 {
 Pass By Value:
 1) Java "pass by value" kullanir
 2)Yani ;java methodlarin orjinal degeri degistirmesine musaade etmez
-3) Java method lara deger yollarken arjinal degerin kopyasini olusturur. ve o kopyayi method a yollar
+3) Java method lara deger yollarken Orjinal degerin kopyasini olusturur. ve o kopyayi method a yollar
 Method kopya deger üzerinde degişiklik yapar,böylece orjinal deger korunmuş olur
 4) java esnek bir dildir, istersek yazdigimiz kod ile orjinal degerin degismesini de temin edebiliriz
     Bakiniz line 16
