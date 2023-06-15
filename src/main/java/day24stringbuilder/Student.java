@@ -16,7 +16,7 @@ Access Modifier
   Note: public ==> olanlar her class dan kullanilabilir
   protected ==> olanlar baska package lardan kullanilamaz
   ama baska package da child class icinden kullanilabilir
-  defaiult == olanlar başka package den kullanilamazlar
+  default == olanlar başka package den kullanilamazlar
   private==> olanlar sadece olusturuldukları class icinde kullanilablirler
 
   Note: "protected ile "default" un farkini söyleyiniz?

@@ -19,8 +19,11 @@ public class Vehicle {
  constructor this() ifadesinin parantez icine yazilan parametreler yardimi ile secilebilir
  5)super() ifadesini yazmak istege baglidir, yazmassaniz da java  sanki super() varmis gibi davaranir,
  Ama kodunuzun daha okunur kilmak icin yazmaniz tavsiye edilir
-
-
+6)super() ve this() ifadeleri constructor icinde herzaman ilk satirda olmalidir
+7)Bir constructor icinde super() ve this() ifadeleri sadece bir kere kullanilabilir(bakiniz 6)
+ 8) Inheritance da variablllari ve methodlari cagirmak icin this veya super kullanilir
+  this ayni class icindeki variable veya methodlari cagirmak icin kullanilir
+   super parent class icindeki variable veya methodlari cagirmak icin kullanilir
  */
 
 
