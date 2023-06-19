@@ -36,7 +36,7 @@ public class Sb01 {
         //StringBuilder kullanarak string olusturmanin 2. yolu
         StringBuilder sb2= new StringBuilder();
         System.out.println(sb2.length());//0
-        System.out.println(sb2.capacity());//
+        System.out.println(sb2.capacity());//16
 
         sb2.append("Java");
         sb2.append("xxxxxxxxxxxxxxx");
