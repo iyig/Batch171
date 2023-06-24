@@ -19,7 +19,7 @@ public class Student {
   public String stdName ="Ali Can";
   public int age = 23;
   private double notOrt =3.53;
-  private boolean succesful=false;
+  private boolean successful=false;
 
   public String getStdId() {
     return stdId;
@@ -29,7 +29,34 @@ public class Student {
     return notOrt;
   }
 
-  public boolean isSuccesful() {
-    return succesful;
+  public boolean isSuccessful() {
+    return successful;
   }
+ /*
+    Encapsulation yaptigimiz datayi istersek diger classlardan nasil degistirebiliriz?
+    "set method" olusturarak Encapsulate edilmis datanin degerini degistirebiliriz
+    1) set methodlar hep public olur
+    2) set methodlarin return typei hep void olur
+    3) set methodlar parametre kullanir, parametrenin data typei variable ile ayni olur
+
+    NOT 1: set method kullanarak varolan object uzerinde degisiklikler yaparak o object'i sanki
+    yeni bir object'mis gibi kullanabiliriz
+
+    NOT 2: get methodlarin diger adi getter, set methodlarin diger adi setter dir
+            getter ve setter larin ikisine birden "Java Beans"   denir
+     */
+
+  public void setStdId(String stdId) {
+    this.stdId = stdId;
+  }
+
+  public void setNotOrt(double notOrt) {
+    this.notOrt = notOrt;
+  }
+
+  public void setSuccessful(boolean successful) {
+    this.successful = successful;
+  }
+
+
 }
